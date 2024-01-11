@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav-app{
+  display: flex;
+  position: absolute;
+  top: 1%;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  background-color: black;
+}
+#detail{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  right: 43%;
+}
